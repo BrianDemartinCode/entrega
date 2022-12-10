@@ -1,0 +1,46 @@
+/* nav */
+.body-index {
+    background: #E7E7E7;
+}
+
+.nav-color{
+    background: yellow;
+}
+
+.nav-color-2{
+    background: yellow;
+}
+
+.a-nav-index {
+    color: black;
+    text-transform: uppercase;
+}
+
+.a-index {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+.a-nav-index:hover{
+    color: black;
+    background: #E7E7E7;
+}
+/* nav */
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* index */
+.modal-contenedor{
+    display: flex;
+    align-items: center;
+}
+
+.img-carrito{
+    width: 200px;
+    padding: 20px;
+}
+
+.card{
+    text-align: center;
+}
+/* index */

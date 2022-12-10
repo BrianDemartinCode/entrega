@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* inicio */
+.body-inicio {
+   background: #E7E7E7;
+}
+
+.box {
+    padding: 50px;
+}
+
+.form-inicio {
+    width: 450px;
+    margin: auto;
+    padding: 30px;
+    border: red solid 2px;
+    border-radius: 1rem;
+    background: #ffc300;
+}
+
+.h1-inicio {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.input-inicio, .button-inicio{
+    width: 100%;
+    text-align: center;
+    border-radius: 70px;
+    padding: 10px;
+    background: grey;
+    cursor: cell;
+}
+
+.a-nav-inicio {
+    color: red;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.button.iniico{
+    background: red;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+
+::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+.a-button{
+    color: white;
+    text-decoration: none;
+}
+
+/* inicio */
+
+
+/* -------------------------------------------------------------------------------------- */
+
+
+/* index */
+.body-index {
+    background: #E7E7E7;
+}
+
+.nav-color{
+    background: yellow;
+}
+
+.nav-color-2{
+    background: yellow;
+}
+
+.a-nav-index {
+    color: black;
+    text-transform: uppercase;
+}
+
+.a-index {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+.a-nav-index:hover{
+    color: black;
+    background: #E7E7E7;
+}
+
+.h2-2{
+    color: #666666;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+}
+
+.box-cards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-suscrip{
+    width: 1200px;
+}
+
+.box-suscrip{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+/* index */
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* footer */
+.box-footer{
+    background: yellow;
+}
+
+.box-cards-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    padding: 30px;
+    gap: 30px;
+}
+
+.a-footer{
+    font-size: 20px;
+}
+/* footer */
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* carrito */
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15%;
+    height: 70px;
+    top: 0;
+
+    width: 100%;
+}
+
+.carrito{
+    filter: invert(100%);
+    width: 45px;
+    height: auto;
+}
+/* carrito */
+
+/* cards */
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #2D4263;
+    border-radius: 20px;
+}
+
+
+.informacion{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.informacion .precio {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion .precio span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion button{
+    background-color: yellow;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.p-cards{
+    color: white;
+}
+
+/* cards */
